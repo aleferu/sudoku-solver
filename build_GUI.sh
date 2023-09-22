@@ -3,4 +3,4 @@
 set -xe
 
 mkdir -p target
-g++ -Wall -Wextra -Wconversion -pedantic -g src/main.cpp src/solver.cpp -o target/sudoku-solver-GUI -lraylib -Isrc
+gcc -Wall -Wextra -Wconversion -pedantic -g src/main.c src/solver.c -o target/sudoku-solver-GUI -lraylib -Isrc
